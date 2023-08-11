@@ -9,7 +9,7 @@ body:
     id: what-happened
     attributes:
       label: O que aconteceu?
-      description: Nos conte, o que você esperava que acontecesse?
+      description: Nos conte, o que aconteceu? (Se necessário, descreva o que aparece na tela) O que você esperava que acontecesse?
       placeholder: Nos diga o que você vê!
     validations:
       required: true
