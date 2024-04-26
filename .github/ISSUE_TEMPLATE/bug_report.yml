@@ -1,6 +1,6 @@
 name: Bug Report
 description: Reportar um bug
-title: "[Bug]: "
+title: ":[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - octocat
