@@ -32,6 +32,8 @@ body:
         - Safari
         - Microsoft Edge
         - Terminal(CLI)
+        - Celular ANDROID
+        - Celular IPHONE
   - type: textarea
     id: logs
     attributes:
