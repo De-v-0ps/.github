@@ -3,19 +3,19 @@ description: Nova funcionalidade para um projeto
 title: "✅🌟 "
 labels: ["feature", "triage"]
 body:
-  - type: markdown
+  - type: textarea
     id: o-que-devemos-fazer
     attributes:
-      label:  Descrição da funcionalidade
-      description: Nos conte, o que é para o componente/pagina/funcionalidade fazer
-      placeholder: Nos diga o que você espera que aconteça!
+      label: "Descrição da funcionalidade"
+      description: "Nos conte, o que é para o componente/página/funcionalidade fazer"
+      placeholder: "Nos diga o que você espera que aconteça!"
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: detalhes-extras
     attributes:
-      label: Coloque aqui, detalhes importantes para a implementação do(a) componente/pagina/funcionalidade
-      description: Nos conte como você deseja que o(a) componente/pagina/funcionalidade seja implementado
-      placeholder: 🔃🔃🔃🔃🔃
+      label: "Detalhes importantes para a implementação"
+      description: "Nos conte como você deseja que o componente/página/funcionalidade seja implementado"
+      placeholder: "🔃🔃🔃🔃🔃"
     validations:
       required: true
