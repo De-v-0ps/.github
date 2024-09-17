@@ -5,26 +5,26 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-  - type: textarea
-    id: what-is-expected
-    attributes:
-      label:  O que era esperado acontecer?
-      description: Nos conte, o que era para o componente/pagina/funcionalidade que está apresentando bug deveria fazer
-      placeholder: Nos diga o que você esperava acontecer!
-    validations:
-      required: true
+  # - type: textarea
+  #   id: what-is-expected
+  #   attributes:
+  #     label:  O que era esperado acontecer?
+  #     description: Nos conte, o que era para o componente/pagina/funcionalidade que está apresentando bug deveria fazer
+  #     placeholder: Nos diga o que você esperava acontecer!
+  #   validations:
+  #     required: true
   - type: textarea
     id: what-happened
     attributes:
       label: O que aconteceu?
-      description: Nos conte, o que aconteceu? (Se necessário, descreva o que aparece na tela)
+      description: Nos conte, o que aconteceu? (Se necessário, descreva o que aparece na tela com imagens)
       placeholder: Nos diga o que você vê!
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: Em qual browser você tá vendo o problema?
+      label: Em qual GUI ou CLI você o problema está sendo apresentado?
       multiple: true
       options:
         - Firefox
