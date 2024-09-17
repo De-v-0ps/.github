@@ -24,7 +24,7 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: Em qual GUI ou CLI você o problema está sendo apresentado?
+      label: Em qual GUI ou CLI o problema está sendo apresentado?
       multiple: true
       options:
         - Firefox
