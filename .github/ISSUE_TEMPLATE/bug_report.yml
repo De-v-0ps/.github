@@ -1,9 +1,8 @@
 name: Bug Report
 description: Reportar um bug
-title: ":bug: "
+title: "🐛"
 labels: ["bug", "triage"]
 assignees:
-  - octocat
 body:
   # - type: textarea
   #   id: what-is-expected
