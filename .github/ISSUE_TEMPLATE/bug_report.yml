@@ -3,38 +3,30 @@ description: Reportar um bug
 title: "🐛"
 labels: ["bug", "triage"]
 body:
-  # - type: textarea
-  #   id: what-is-expected
-  #   attributes:
-  #     label:  O que era esperado acontecer?
-  #     description: Nos conte, o que era para o componente/pagina/funcionalidade que está apresentando bug deveria fazer
-  #     placeholder: Nos diga o que você esperava acontecer!
-  #   validations:
-  #     required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: O que aconteceu?
-      description: Nos conte, o que aconteceu? (Se necessário, descreva o que aparece na tela com imagens)
-      placeholder: Nos diga o que você vê!
+      label: "O que aconteceu?"
+      description: "Nos conte, o que aconteceu? (Se necessário, descreva o que aparece na tela com imagens)"
+      placeholder: "Nos diga o que você vê!"
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: Em qual GUI ou CLI o problema está sendo apresentado?
+      label: "Em qual GUI ou CLI o problema está sendo apresentado?"
       multiple: true
       options:
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
-        - Terminal(CLI)
+        - Terminal (CLI)
         - Celular ANDROID
         - Celular IPHONE
   - type: textarea
     id: logs
     attributes:
-      label: Logs relevantes
-      description: Por favor, copie e cole qualquer log relevante.
+      label: "Logs relevantes"
+      description: "Por favor, copie e cole qualquer log relevante."
       render: shell
