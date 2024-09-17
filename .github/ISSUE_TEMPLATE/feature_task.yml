@@ -1,0 +1,22 @@
+name: Feature Task
+description: Nova funcionalidade para um projeto
+title: "✅🌟 "
+labels: ["feature", "triage"]
+assignees:
+body:
+  - type: markdown
+    id: o-que-devemos-fazer
+    attributes:
+      label:  Descrição da funcionalidade:
+      description: Nos conte, o que é para o componente/pagina/funcionalidade fazer
+      placeholder: Nos diga o que você espera que aconteça!
+    validations:
+      required: true
+  - type: markdown
+    id: detalhes-extras
+    attributes:
+      label: Coloque aqui, detalhes importantes para a implementação do(a) componente/pagina/funcionalidade:
+      description: Nos conte como você deseja que o(a) componente/pagina/funcionalidade seja implementado
+      placeholder: 🔃🔃🔃🔃🔃
+    validations:
+      required: true
