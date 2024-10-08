@@ -16,6 +16,6 @@ body:
     attributes:
       label: "Critérios de aceitação:"
       description: "Nos conte como você deseja que o componente/página/funcionalidade seja implementado"
-      placeholder: ""
+      placeholder: "🚨🚨🚨🚨🚨🚨"
     validations:
       required: false
