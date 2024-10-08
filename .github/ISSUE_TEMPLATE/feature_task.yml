@@ -4,16 +4,34 @@ title: "✅🌟 "
 labels: ["feature", "triage"]
 body:
   - type: textarea
-    id: o-que-devemos-fazer
+    id: historia
     attributes:
       label: "História da atividade"
-      placeholder: "Eu como usuario quero poder criar X que com Y faz Z."
+      description: "Descreva a história da funcionalidade a ser desenvolvida."
+      placeholder: "Eu como [tipo de usuário] quero [ação] para [resultado]."
     validations:
       required: true
+
   - type: textarea
     id: criterios-aceitacao
     attributes:
-      label: "Critérios de aceitação:"
-      placeholder: "- [] aaaa"
+      label: "Critérios de aceitação"
+      description: "Liste os critérios que determinam quando a funcionalidade está completa e aceita."
+      value: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: tarefas-issue
+    attributes:
+      label: "Tarefas da issue"
+      description: "Liste as tarefas que precisam ser realizadas para completar a issue."
+      value: |
+        - [ ] Tarefa 1
+        - [ ] Tarefa 2
+        - [ ] Tarefa 3
     validations:
       required: false
