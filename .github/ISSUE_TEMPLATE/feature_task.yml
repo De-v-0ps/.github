@@ -7,7 +7,6 @@ body:
     id: o-que-devemos-fazer
     attributes:
       label: "História da atividade"
-      description: "Nos conte, o que é suposto o usuario ou sistema fazer com a componente/página/funcionalidade"
       placeholder: "Eu como usuario quero poder criar X que com Y faz Z."
     validations:
       required: true
@@ -15,7 +14,6 @@ body:
     id: criterios-aceitacao
     attributes:
       label: "Critérios de aceitação:"
-      description: "Nos conte como você deseja que o componente/página/funcionalidade seja implementado"
-      placeholder: "🚨🚨🚨🚨🚨🚨"
+      placeholder: "- [] aaaa"
     validations:
       required: false
