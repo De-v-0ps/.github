@@ -6,16 +6,16 @@ body:
   - type: textarea
     id: o-que-devemos-fazer
     attributes:
-      label: "Descrição da funcionalidade"
-      description: "Nos conte, o que é para o componente/página/funcionalidade fazer"
-      placeholder: "Nos diga o que você espera que aconteça!"
+      label: "História da atividade"
+      description: "Nos conte, o que é suposto o usuario ou sistema fazer com a componente/página/funcionalidade"
+      placeholder: "Eu como usuario quero poder criar X que com Y faz Z."
     validations:
       required: true
   - type: textarea
-    id: detalhes-extras
+    id: criterios-aceitacao
     attributes:
-      label: "Detalhes importantes para a implementação"
+      label: "Critérios de aceitação:"
       description: "Nos conte como você deseja que o componente/página/funcionalidade seja implementado"
-      placeholder: "🔃🔃🔃🔃🔃"
+      placeholder: ""
     validations:
       required: false
