@@ -1,16 +1,12 @@
 name: Feature Task
 description: Nova tarefa para uma historia do projeto
-title: ""
+title: "Titulo da Tarefa"
 labels: ["feature", "triage"]
 body:
   - type: textarea
     id: tarefas-issue
     attributes:
-      label: "Tarefas da issue"
-      description: "Liste as tarefas que precisam ser realizadas para completar a issue."
-      value: |
-        - [ ] Tarefa 1
-        - [ ] Tarefa 2
-        - [ ] Tarefa 3
+      label: "Descrição"
+      description: "Elabore mais detalhes caso necessario."
     validations:
       required: false
