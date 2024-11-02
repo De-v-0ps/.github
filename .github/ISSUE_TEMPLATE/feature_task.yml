@@ -1,29 +1,8 @@
 name: Feature Task
-description: Nova funcionalidade para um projeto
-title: "✅🌟 "
+description: Nova tarefa para uma historia do projeto
+title: ""
 labels: ["feature", "triage"]
 body:
-  - type: textarea
-    id: historia
-    attributes:
-      label: "História da atividade"
-      description: "Descreva a história da funcionalidade a ser desenvolvida."
-      placeholder: "Eu como [tipo de usuário] quero [ação] para [resultado]."
-    validations:
-      required: true
-
-  - type: textarea
-    id: criterios-aceitacao
-    attributes:
-      label: "Critérios de aceitação"
-      description: "Liste os critérios que determinam quando a funcionalidade está completa e aceita."
-      value: |
-        - [ ] Critério 1
-        - [ ] Critério 2
-        - [ ] Critério 3
-    validations:
-      required: true
-
   - type: textarea
     id: tarefas-issue
     attributes:
